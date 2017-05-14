@@ -41,7 +41,7 @@ This plugin is not ready for production. It currently works in most happy scenar
 Project Structure
 --------------
 
-This project provides an `sbt` plugin that will generate the Lagom Service Descriptor given a 3rd party API specification. It works by detecting the dependency of the project on Lagom and also the Java vs Scala API. Once the plugin is activated it will locate all 3rd party specification files and proceed with the code genreations.
+This project provides an `sbt` plugin that will generate the Lagom Service Descriptor given a 3rd party API specification. It works by detecting the dependency of the project on Lagom and also the Java vs Scala API. Once the plugin is activated it will locate all 3rd party specification files and proceed with code generation.
 
  * `lagom-descriptor-generator-sbt-plugin`: the code for the `sbt` plugin. This project also contains the `scripted` tests.
 
